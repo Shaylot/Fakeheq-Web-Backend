@@ -1,0 +1,9 @@
+# Backend dependencies
+Flask==2.3.2
+tensorflow==2.14.0
+mtcnn==0.1.1
+Pillow==9.3.0
+numpy==1.24.0
+
+# Optional for GPU support (if available)
+tensorflow-gpu==2.14.0
