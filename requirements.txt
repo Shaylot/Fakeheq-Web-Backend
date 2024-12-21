@@ -4,3 +4,4 @@ mtcnn
 Pillow
 numpy
 flask_cors
+gunicorn
