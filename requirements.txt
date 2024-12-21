@@ -3,3 +3,4 @@ tensorflow
 mtcnn
 Pillow
 numpy
+flask_cors

@@ -3,8 +3,10 @@ from PIL import Image
 import numpy as np
 from mtcnn import MTCNN
 import tensorflow as tf
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all origins
 
 # Initialize models
 models = {
